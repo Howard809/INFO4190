@@ -67,8 +67,8 @@ public class Bookshelf {
 		shelf.addBook(book4);
 		shelf.addBook(book5);
 		System.out.println(shelf); //prints the whole shelf
-		System.out.println("Book 3 has been checked out.");
 		Sorting.main(); // sorts the shelf and prints it in reverse order
+		System.out.println("Book 3 has been checked out.");
 		shelf.removeBook(book3); //removes the third book from the shelf
 		System.out.println(shelf); //prints the updated shelf
 		System.out.println("Is book 3, 'The Art of War' available? "+shelf.findBook(book3)); //searches for the third book, should give "false" as the result
